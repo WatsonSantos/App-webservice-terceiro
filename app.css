@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+
+}
+
+body{
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+#container{
+    width: 58%;
+    height: 30vh;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 30px 30px 30px 30px;
+}
+
+#container__title{
+    width: 100;
+    background-color: transparent;
+    text-align: center;
+    height: 40px;
+    border-radius: 30px 30px 0px 0px;
+    padding-top: 2px;
+    border-bottom: 1px solid white;
+
+}
+#container__title h2{
+    color: #2d0c3a;
+    font-size: 26px;
+}
+
+#endereco{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 3rem;
+}
+
+#endereco #titulo1, #titulo2, #titulo3{
+    color: #561e6c;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#dado1, #dado2, #dado3{
+    color: white;
+    margin-left: 0.5rem;
+    margin-right: 2rem;
+    font-size: 14px;
+}
+
+form{
+    position: relative;
+    left: 35%;
+    top: 3rem;
+}
+
+form input{
+    height: 1.8rem;
+    width: 12rem;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: rgb(198, 192, 192);
+    font-weight: 600;
+    transition: 400ms ease;
+    border-bottom: 1px solid wheat;
+    padding-left: 2rem;
+    transition: 0.5s;
+    
+
+}
+
+form button{
+    height: 1.8rem;
+    width: 7rem;
+    background: white;
+    outline: none;
+    border-radius: 4px;
+    font-weight: 700;
+    transition: 400ms ease;
+    cursor:pointer;
+    margin-left: 2rem;
+    margin-right: 5rem;
+}
+
+form button:hover{
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+form input:focus{
+    border-bottom: 2px solid wheat;
+    width: 14rem;
+    padding-left: 3.7rem;
+}
+
+
+
+
+
+
+
